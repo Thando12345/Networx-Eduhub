@@ -120,38 +120,38 @@ The feasibility of Networx Eduhub is underscored by:
      cd Networx-Eduhub
 
 ### Install Backend Dependencies
-```bash
+
 composer install
 
 ### Install Frontend Dependencies
-```bash
+
 npm install
 
 
 ###Configure Environment
-```bash
+
 cp .env.example .env
 
 ###Generate the Application Key
-```bash
+
 php artisan key:generate
 
 ###Run Migrations and Seed the Database
-```bash
+
 php artisan migrate --seed
 
 ###Start the Server
-```bash
+
 php artisan serve
 
-## Contact
+Contact
 
 For any inquiries or support, please reach out to:
 
 Email: support@networx-eduhub.com
 Phone: +27 67 262 9614
 
-## License
+ License
 
 This project is licensed under the MIT License. See the LICENSE file for more information. 
 
